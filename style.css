@@ -1,0 +1,121 @@
+
+.topDiv {
+    display: flex;
+    flex-direction: column;
+    
+}
+.firstParent {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+.firstChild {
+    height: 250px;
+    width: 450px;
+    border-radius: 15px;
+}
+.fcOne, .fcTwo, .fcThree {
+    border: 1px solid blue;
+
+}
+.secondChild {
+   
+    height: 100px;
+    width: 300px;
+    text-align: center;
+
+}
+.secondOne, .secondTwo, .secondThree {
+    border: 1px solid orange;
+
+}
+.tOne, .tTwo, .tThree {
+    border: 1px solid maroon;
+
+}
+.secondChildTop {
+    
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    font-size: 150%;
+    
+    padding: 10px;
+}
+.blue {
+    background-color: #99ccff;
+    color: blue;
+}
+.orange {
+    background-color: #ffe0b3;
+    color: #e68a00;
+}
+.maroon {
+    background-color: #ff9966;
+}
+.textColorBlue {
+    color: blue;
+}
+.textColorOrange{
+    color: orange;
+}
+.textColormaroon{
+    color: maroon;
+}
+
+.out {
+    border: 0.5px solid blue;
+}
+
+.outRowOne {
+    border: 0.5px solid orange;
+}
+.outRowThree {
+    border: 0.5px solid maroon;
+}
+.departure {
+    background-image: url("../images/download.png");
+}
+.arrivals {
+    background-image: url("../images/arrivals.png");
+
+}
+.translate {
+    background-image: url("../images/translate.jpeg");
+}
+.bike {
+    background-image: url("../images/bicycling.png");
+}
+.boat {
+    background-image: url("../images/ship.jpeg");
+}
+.drive {
+    background-image: url("../images/car.jpeg");
+}
+.coffee {
+    background-image: url("../images/coffee.png");
+}
+.gym {
+    background-image: url("../images/gym.png");
+
+}
+.hottub {
+    background-image: url("../images/hottub.png");
+
+}
+.imageUp {
+    height: 50px;
+    width: 450px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 80px;
+}
+.secondChildBottom {
+    text-align: center;
+    font-size: 200%;
+   
+   
+
+}
+ 

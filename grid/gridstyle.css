@@ -1,0 +1,63 @@
+.container {
+    display: grid;
+    border: 5px solid red;
+    width: 300px;
+    height: 300px;
+    /* grid-template-columns: 100px 50px 100px ;
+    grid-template-rows: 100px 200px ; */
+    /* grid-template: 100px 200px/100px 50px 100px; */
+    /* use fraction (fr)unit to stop overflow */
+    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+    /* minmix is used to define minimum on small screen and maximum on larger screen on line 14*/
+    grid-template: repeat(3, 1fr)/1fr 1fr 1fr;
+    /* repeat is used to give multiple declearation */
+    grid-template: repeat(3, 1fr)/1fr minmax(50px, 500px) 1fr;
+
+    gap: 10px 10px; 
+    /* row-gap and columns-gap are used to give gap between row and coloumn */
+
+}
+.box {
+    border: 2px blue solid;
+    background-color: antiquewhite;
+    margin: 2px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "nameraju nameraju namebob namethinlay "
+    "namerabi namesunil namesunil namethinlay"
+    ;
+    gap: 20px;
+    grid-template-columns: 340px 120px 340px 340px;
+    grid-template-rows: 300px 300px;
+    justify-content: center;
+    /* align-content: center; */
+    padding-top: 150px;
+
+
+
+}
+.raju{
+    background-color: slateblue;
+    grid-area: nameraju;
+}
+.bob{
+    background-color: lightslategrey;
+    grid-area: namebob;
+}
+.thinlay {
+    background-color: wheat;
+    grid-area: namethinlay;
+}
+.rabi {
+    background-color: chartreuse;
+    grid-area: namerabi;
+}
+.sunil {
+    background-color: crimson;
+    grid-area: namesunil;
+}
